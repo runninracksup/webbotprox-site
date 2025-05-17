@@ -1,0 +1,6 @@
+name = "webbotprox-site"
+type = "javascript"
+account_id = "2f00a8b792c7892985b2731a1312a5aa"
+zone_id = "400866293af67541ccdfcee0ff323ea9"
+route = "webbotprox.store/*"
+compatibility_date = "2024-01-01"
