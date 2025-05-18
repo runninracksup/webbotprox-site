@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #101010;
+  color: #e0e0e0;
+  text-align: center;
+}
+header {
+  background-color: #151515;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid #00ff88;
+}
+.logo {
+  max-width: 150px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  color: #ffffff;
+}
+.tagline {
+  color: #00ff88;
+  font-size: 1.2rem;
+}
+main {
+  padding: 2rem 1rem;
+}
+section {
+  margin: 2rem 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 0.5rem 0;
+}
+.download-button,
+.crypto-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #00ff88;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.download-button:hover,
+.crypto-button:hover {
+  background-color: #00cc66;
+}
+footer {
+  background-color: #151515;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
