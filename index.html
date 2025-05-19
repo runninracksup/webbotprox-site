@@ -1,44 +1,75 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WebBot Pro X</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    img.logo {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    p.slogan {
+      font-size: 1.5rem;
+      color: #0f0;
+      margin-bottom: 30px;
+    }
+    .pricing {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #222;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,255,0,0.2);
+      width: 200px;
+    }
+    .stars {
+      color: gold;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="WebBot Pro X Logo" class="logo" />
-    <h1>WebBot Pro X</h1>
-    <p class="tagline">The Ultimate Automated Experience</p>
-  </header>
-  <main>
-    <section>
-      <h2>🚀 Alpha Build Now Available</h2>
-      <a href="https://your-alpha-download-link.com" class="download-button">Download Alpha</a>
-    </section>
-    <section>
-      <h2>💸 Purchase License with Crypto</h2>
-      <a href="https://nowpayments.io" class="crypto-button">Buy with Crypto</a>
-    <section class="rating">
-    <div class="stars">
-      ★★★★☆
+  <img src="logo.png" alt="WebBot Pro X" class="logo" />
+  <h1>WebBot Pro X</h1>
+  <p class="slogan">The Ultimate Automated Experience</p>
+
+  <div class="pricing">
+    <div class="card">
+      <h2>Personal</h2>
+      <p>$350</p>
     </div>
-    <p>4.0 out of 5 stars (200 ratings)</p>
-    </section>
-    <section>
-      <h2>Features</h2>
-      <ul>
-        <li>✔ Smart form autofill</li>
-        <li>✔ Email verification (Gmail, Outlook, ProtonMail, Yahoo)</li>
-        <li>✔ Captcha detection with skip/manual override</li>
-        <li>✔ Smart loan/income selector logic</li>
-        <li>✔ Crypto-based licensing (NowPayments)</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 WebBot Pro X. All rights reserved.</p>
-  </footer>
+    <div class="card">
+      <h2>Power User</h2>
+      <p>$530</p>
+    </div>
+    <div class="card">
+      <h2>Business Bundle</h2>
+      <p>$800</p>
+    </div>
+  </div>
+
+  <div class="stars">★★★★☆ (127 ratings)</div>
 </body>
 </html>
